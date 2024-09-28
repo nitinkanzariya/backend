@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 const connectionString =
-  "mongodb+srv://nkanzariya40:Nitin%401911@testing.oespc.mongodb.net/Test?retryWrites=true&w=majority";
+  "mongo Connection String";
 
 mongoose
   .connect(connectionString)
